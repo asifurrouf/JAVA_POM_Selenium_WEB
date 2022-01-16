@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="C:/Users/LENOVO/IdeaProjects/Demo_Java_Web_Bikroy(failed)">
+    <classes>
+      <class name="tests.SignInTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="googleLoginTest"/>
+          <include name="facebookLoginTest"/>
+        </methods>
+      </class> <!-- tests.SignInTest -->
+    </classes>
+  </test> <!-- C:/Users/LENOVO/IdeaProjects/Demo_Java_Web_Bikroy(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

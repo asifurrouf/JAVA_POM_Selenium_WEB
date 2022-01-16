@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="29" passed="26" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-09T20:28:58 BDT" name="All Test Suite" finished-at="2021-11-09T20:33:16 BDT" duration-ms="257919">
+    <groups>
+    </groups>
+    <test started-at="2021-11-09T20:28:58 BDT" name="C:/Users/LENOVO/IdeaProjects/Demo_Java_Web_Bikroy" finished-at="2021-11-09T20:33:16 BDT" duration-ms="257919">
+      <class name="tests.Sell">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Sell@7ad1caa2]" started-at="2021-11-09T20:32:17 BDT" name="setUp" finished-at="2021-11-09T20:32:24 BDT" duration-ms="7103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startSellingTest()[pri:1, instance:tests.Sell@7ad1caa2]" started-at="2021-11-09T20:32:24 BDT" name="startSellingTest" finished-at="2021-11-09T20:32:27 BDT" duration-ms="3352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startSellingTest -->
+        <test-method signature="learnToSell()[pri:2, instance:tests.Sell@7ad1caa2]" started-at="2021-11-09T20:32:27 BDT" name="learnToSell" finished-at="2021-11-09T20:32:34 BDT" duration-ms="6480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- learnToSell -->
+        <test-method signature="affiliatesTest()[pri:3, instance:tests.Sell@7ad1caa2]" started-at="2021-11-09T20:32:34 BDT" name="affiliatesTest" finished-at="2021-11-09T20:32:39 BDT" duration-ms="4884" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- affiliatesTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Sell@7ad1caa2]" started-at="2021-11-09T20:32:39 BDT" name="tearDown" finished-at="2021-11-09T20:32:40 BDT" duration-ms="1826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Sell -->
+      <class name="tests.SearchProducts">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SearchProducts@4fe533ff]" started-at="2021-11-09T20:32:57 BDT" name="setUp" finished-at="2021-11-09T20:33:05 BDT" duration-ms="7080" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="searchFromSearchBoxTest()[pri:1, instance:tests.SearchProducts@4fe533ff]" started-at="2021-11-09T20:33:05 BDT" name="searchFromSearchBoxTest" finished-at="2021-11-09T20:33:11 BDT" duration-ms="6381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFromSearchBoxTest -->
+        <test-method signature="selectFromCategory()[pri:2, instance:tests.SearchProducts@4fe533ff]" started-at="2021-11-09T20:33:11 BDT" name="selectFromCategory" finished-at="2021-11-09T20:33:14 BDT" duration-ms="2886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFromCategory -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProducts@4fe533ff]" started-at="2021-11-09T20:33:14 BDT" name="tearDown" finished-at="2021-11-09T20:33:16 BDT" duration-ms="1816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchProducts -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@262816a8]" started-at="2021-11-09T20:30:36 BDT" name="setUp" finished-at="2021-11-09T20:30:46 BDT" duration-ms="10071" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="homePageTest()[pri:0, instance:tests.HomePageTest@262816a8]" started-at="2021-11-09T20:30:46 BDT" name="homePageTest" finished-at="2021-11-09T20:30:47 BDT" duration-ms="1017" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageTest@262816a8]" started-at="2021-11-09T20:30:47 BDT" name="tearDown" finished-at="2021-11-09T20:30:49 BDT" duration-ms="1791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.HomePageElements">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:29:30 BDT" name="setUp" finished-at="2021-11-09T20:29:38 BDT" duration-ms="7927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="dailyDealsTest()[pri:1, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:29:38 BDT" name="dailyDealsTest" finished-at="2021-11-09T20:29:42 BDT" duration-ms="4004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dailyDealsTest -->
+        <test-method signature="helpAndContact()[pri:2, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:29:42 BDT" name="helpAndContact" finished-at="2021-11-09T20:29:48 BDT" duration-ms="6181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helpAndContact -->
+        <test-method signature="sellTest()[pri:3, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:29:48 BDT" name="sellTest" finished-at="2021-11-09T20:29:51 BDT" duration-ms="3741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellTest -->
+        <test-method signature="electronicsTest()[pri:4, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:29:51 BDT" name="electronicsTest" finished-at="2021-11-09T20:29:57 BDT" duration-ms="5938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- electronicsTest -->
+        <test-method signature="fashionTest()[pri:5, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:29:57 BDT" name="fashionTest" finished-at="2021-11-09T20:30:02 BDT" duration-ms="4600" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fashionTest -->
+        <test-method signature="healthAndBeautyTest()[pri:6, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:30:02 BDT" name="healthAndBeautyTest" finished-at="2021-11-09T20:30:07 BDT" duration-ms="4547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthAndBeautyTest -->
+        <test-method signature="homeAndGardenTest()[pri:7, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:30:07 BDT" name="homeAndGardenTest" finished-at="2021-11-09T20:30:11 BDT" duration-ms="4546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homeAndGardenTest -->
+        <test-method signature="sportsTest()[pri:8, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:30:11 BDT" name="sportsTest" finished-at="2021-11-09T20:30:17 BDT" duration-ms="5774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sportsTest -->
+        <test-method signature="collectiblesAndArtPageTest()[pri:9, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:30:17 BDT" name="collectiblesAndArtPageTest" finished-at="2021-11-09T20:30:21 BDT" duration-ms="4501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectiblesAndArtPageTest -->
+        <test-method signature="industrialEquipmentPageTest()[pri:10, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:30:21 BDT" name="industrialEquipmentPageTest" finished-at="2021-11-09T20:30:26 BDT" duration-ms="4510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- industrialEquipmentPageTest -->
+        <test-method signature="motorsPageTest()[pri:11, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:30:26 BDT" name="motorsPageTest" finished-at="2021-11-09T20:30:34 BDT" duration-ms="8004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- motorsPageTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.HomePageElements@3f725306]" started-at="2021-11-09T20:30:34 BDT" name="tearDown" finished-at="2021-11-09T20:30:36 BDT" duration-ms="1822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.HomePageElements -->
+      <class name="tests.PopularCategories">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PopularCategories@a5272be]" started-at="2021-11-09T20:30:49 BDT" name="setUp" finished-at="2021-11-09T20:30:56 BDT" duration-ms="6948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="sneakersTest()[pri:1, instance:tests.PopularCategories@a5272be]" started-at="2021-11-09T20:30:56 BDT" name="sneakersTest" finished-at="2021-11-09T20:31:00 BDT" duration-ms="4022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sneakersTest -->
+        <test-method signature="koreanBeauty()[pri:2, instance:tests.PopularCategories@a5272be]" started-at="2021-11-09T20:31:00 BDT" name="koreanBeauty" finished-at="2021-11-09T20:31:04 BDT" duration-ms="4559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- koreanBeauty -->
+        <test-method signature="wristWatches()[pri:3, instance:tests.PopularCategories@a5272be]" started-at="2021-11-09T20:31:04 BDT" name="wristWatches" finished-at="2021-11-09T20:31:10 BDT" duration-ms="6136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wristWatches -->
+        <test-method signature="fishing()[pri:4, instance:tests.PopularCategories@a5272be]" started-at="2021-11-09T20:31:10 BDT" name="fishing" finished-at="2021-11-09T20:31:17 BDT" duration-ms="6399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fishing -->
+        <test-method signature="collectibles()[pri:5, instance:tests.PopularCategories@a5272be]" started-at="2021-11-09T20:31:17 BDT" name="collectibles" finished-at="2021-11-09T20:31:21 BDT" duration-ms="4287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- collectibles -->
+        <test-method signature="smartPhones()[pri:6, instance:tests.PopularCategories@a5272be]" started-at="2021-11-09T20:31:21 BDT" name="smartPhones" finished-at="2021-11-09T20:31:26 BDT" duration-ms="4571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smartPhones -->
+        <test-method signature="popularSell()[pri:7, instance:tests.PopularCategories@a5272be]" started-at="2021-11-09T20:31:26 BDT" name="popularSell" finished-at="2021-11-09T20:32:00 BDT" duration-ms="34764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularSell -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PopularCategories@a5272be]" started-at="2021-11-09T20:32:00 BDT" name="tearDown" finished-at="2021-11-09T20:32:02 BDT" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PopularCategories -->
+      <class name="tests.RegistrationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegistrationTest@136965e3]" started-at="2021-11-09T20:32:02 BDT" name="setUp" finished-at="2021-11-09T20:32:05 BDT" duration-ms="2802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="registrationTest()[pri:0, instance:tests.RegistrationTest@136965e3]" started-at="2021-11-09T20:32:05 BDT" name="registrationTest" finished-at="2021-11-09T20:32:15 BDT" duration-ms="10188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RegistrationTest@136965e3]" started-at="2021-11-09T20:32:15 BDT" name="tearDown" finished-at="2021-11-09T20:32:17 BDT" duration-ms="1915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.RegistrationTest -->
+      <class name="tests.Buy">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.Buy@34b27915]" started-at="2021-11-09T20:28:58 BDT" name="setUp" finished-at="2021-11-09T20:29:07 BDT" duration-ms="9339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="buySection()[pri:0, instance:tests.Buy@34b27915]" started-at="2021-11-09T20:29:07 BDT" name="buySection" finished-at="2021-11-09T20:29:26 BDT" duration-ms="19093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buySection -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.Buy@34b27915]" started-at="2021-11-09T20:29:26 BDT" name="tearDown" finished-at="2021-11-09T20:29:30 BDT" duration-ms="3239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.Buy -->
+      <class name="tests.SignInTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SignInTest@135a8c6f]" started-at="2021-11-09T20:32:40 BDT" name="setUp" finished-at="2021-11-09T20:32:45 BDT" duration-ms="4146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="facebookLoginTest()[pri:2, instance:tests.SignInTest@135a8c6f]" started-at="2021-11-09T20:32:45 BDT" name="facebookLoginTest" finished-at="2021-11-09T20:32:54 BDT" duration-ms="9337" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='signin_fb_btn']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-5TOK6QG', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eed461bebe1bbece5c550cc5b10ff7a0, findElement {using=xpath, value=//*[@id='signin_fb_btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52223/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eed461bebe1bbece5c550cc5b10ff7a0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='signin_fb_btn']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-5TOK6QG', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eed461bebe1bbece5c550cc5b10ff7a0, findElement {using=xpath, value=//*[@id='signin_fb_btn']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52223/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eed461bebe1bbece5c550cc5b10ff7a0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at model.CommonMethods.clickOnButton(CommonMethods.java:18)
+at tests.SignInTest.facebookLoginTest(SignInTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- facebookLoginTest -->
+        <test-method signature="googleLoginTest()[pri:3, instance:tests.SignInTest@135a8c6f]" started-at="2021-11-09T20:32:54 BDT" name="googleLoginTest" finished-at="2021-11-09T20:32:56 BDT" duration-ms="1639" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#signin_ggl_btn"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-5TOK6QG', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eed461bebe1bbece5c550cc5b10ff7a0, findElement {using=id, value=signin_ggl_btn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52223/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eed461bebe1bbece5c550cc5b10ff7a0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#signin_ggl_btn"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'DESKTOP-5TOK6QG', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eed461bebe1bbece5c550cc5b10ff7a0, findElement {using=id, value=signin_ggl_btn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52223/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eed461bebe1bbece5c550cc5b10ff7a0
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+at model.CommonMethods.clickOnButton(CommonMethods.java:18)
+at tests.SignInTest.googleLoginTest(SignInTest.java:64)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLoginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SignInTest@135a8c6f]" started-at="2021-11-09T20:32:56 BDT" name="tearDown" finished-at="2021-11-09T20:32:57 BDT" duration-ms="1840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SignInTest -->
+    </test> <!-- C:/Users/LENOVO/IdeaProjects/Demo_Java_Web_Bikroy -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

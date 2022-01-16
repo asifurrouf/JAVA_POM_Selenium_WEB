@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Test_Suite" class="navigator-link">
+              <span class="suite-name border-failed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Test_Suite" class="navigator-link ">
+                    <span>C:\Users\LENOVO\IdeaProjects\Demo_Java_Web_Bikroy\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">28 methods, 2 failed,   26 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods failed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods failed suite-All_Test_Suite"> (show)</a> <!-- show-methods failed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-All_Test_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.SignInTest" class="method navigator-link" hash-for-method="facebookLoginTest">facebookLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.SignInTest" class="method navigator-link" hash-for-method="googleLoginTest">googleLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-All_Test_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.Sell" class="method navigator-link" hash-for-method="affiliatesTest">affiliatesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.Buy" class="method navigator-link" hash-for-method="buySection">buySection</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.PopularCategories" class="method navigator-link" hash-for-method="collectibles">collectibles</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="collectiblesAndArtPageTest">collectiblesAndArtPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="dailyDealsTest">dailyDealsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="electronicsTest">electronicsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="fashionTest">fashionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.PopularCategories" class="method navigator-link" hash-for-method="fishing">fishing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="healthAndBeautyTest">healthAndBeautyTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="helpAndContact">helpAndContact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="homeAndGardenTest">homeAndGardenTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageTest" class="method navigator-link" hash-for-method="homePageTest">homePageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="industrialEquipmentPageTest">industrialEquipmentPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.PopularCategories" class="method navigator-link" hash-for-method="koreanBeauty">koreanBeauty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.Sell" class="method navigator-link" hash-for-method="learnToSell">learnToSell</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="motorsPageTest">motorsPageTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.PopularCategories" class="method navigator-link" hash-for-method="popularSell">popularSell</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.RegistrationTest" class="method navigator-link" hash-for-method="registrationTest">registrationTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.SearchProducts" class="method navigator-link" hash-for-method="searchFromSearchBoxTest">searchFromSearchBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.SearchProducts" class="method navigator-link" hash-for-method="selectFromCategory">selectFromCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="sellTest">sellTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.PopularCategories" class="method navigator-link" hash-for-method="smartPhones">smartPhones</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.PopularCategories" class="method navigator-link" hash-for-method="sneakersTest">sneakersTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.HomePageElements" class="method navigator-link" hash-for-method="sportsTest">sportsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.Sell" class="method navigator-link" hash-for-method="startSellingTest">startSellingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Test_Suite" title="tests.PopularCategories" class="method navigator-link" hash-for-method="wristWatches">wristWatches</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="facebookLoginTest">
+                  </a> <!-- facebookLoginTest -->
+                  <span class="method-name">facebookLoginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&apos;signin_fb_btn&apos;]&quot;}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-5TOK6QG&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eed461bebe1bbece5c550cc5b10ff7a0, findElement {using=xpath, value=//*[@id=&apos;signin_fb_btn&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52223/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eed461bebe1bbece5c550cc5b10ff7a0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at model.CommonMethods.clickOnButton(CommonMethods.java:18)
+	at tests.SignInTest.facebookLoginTest(SignInTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="googleLoginTest">
+                  </a> <!-- googleLoginTest -->
+                  <span class="method-name">googleLoginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#signin_ggl_btn&quot;}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;DESKTOP-5TOK6QG&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [eed461bebe1bbece5c550cc5b10ff7a0, findElement {using=id, value=signin_ggl_btn}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:52223}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:52223/devtoo..., se:cdpVersion: 95.0.4638.69, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eed461bebe1bbece5c550cc5b10ff7a0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
+	at model.CommonMethods.clickOnButton(CommonMethods.java:18)
+	at tests.SignInTest.googleLoginTest(SignInTest.java:64)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-failed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchProducts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFromSearchBoxTest">
+                  </a> <!-- searchFromSearchBoxTest -->
+                  <span class="method-name">searchFromSearchBoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectFromCategory">
+                  </a> <!-- selectFromCategory -->
+                  <span class="method-name">selectFromCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PopularCategories</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="collectibles">
+                  </a> <!-- collectibles -->
+                  <span class="method-name">collectibles</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fishing">
+                  </a> <!-- fishing -->
+                  <span class="method-name">fishing</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="koreanBeauty">
+                  </a> <!-- koreanBeauty -->
+                  <span class="method-name">koreanBeauty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="popularSell">
+                  </a> <!-- popularSell -->
+                  <span class="method-name">popularSell</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="smartPhones">
+                  </a> <!-- smartPhones -->
+                  <span class="method-name">smartPhones</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sneakersTest">
+                  </a> <!-- sneakersTest -->
+                  <span class="method-name">sneakersTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="wristWatches">
+                  </a> <!-- wristWatches -->
+                  <span class="method-name">wristWatches</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="homePageTest">
+                  </a> <!-- homePageTest -->
+                  <span class="method-name">homePageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Buy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="buySection">
+                  </a> <!-- buySection -->
+                  <span class="method-name">buySection</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.Sell</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="affiliatesTest">
+                  </a> <!-- affiliatesTest -->
+                  <span class="method-name">affiliatesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="learnToSell">
+                  </a> <!-- learnToSell -->
+                  <span class="method-name">learnToSell</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="startSellingTest">
+                  </a> <!-- startSellingTest -->
+                  <span class="method-name">startSellingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registrationTest">
+                  </a> <!-- registrationTest -->
+                  <span class="method-name">registrationTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageElements</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="collectiblesAndArtPageTest">
+                  </a> <!-- collectiblesAndArtPageTest -->
+                  <span class="method-name">collectiblesAndArtPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="dailyDealsTest">
+                  </a> <!-- dailyDealsTest -->
+                  <span class="method-name">dailyDealsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="electronicsTest">
+                  </a> <!-- electronicsTest -->
+                  <span class="method-name">electronicsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fashionTest">
+                  </a> <!-- fashionTest -->
+                  <span class="method-name">fashionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="healthAndBeautyTest">
+                  </a> <!-- healthAndBeautyTest -->
+                  <span class="method-name">healthAndBeautyTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="helpAndContact">
+                  </a> <!-- helpAndContact -->
+                  <span class="method-name">helpAndContact</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="homeAndGardenTest">
+                  </a> <!-- homeAndGardenTest -->
+                  <span class="method-name">homeAndGardenTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="industrialEquipmentPageTest">
+                  </a> <!-- industrialEquipmentPageTest -->
+                  <span class="method-name">industrialEquipmentPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="motorsPageTest">
+                  </a> <!-- motorsPageTest -->
+                  <span class="method-name">motorsPageTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sellTest">
+                  </a> <!-- sellTest -->
+                  <span class="method-name">sellTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sportsTest">
+                  </a> <!-- sportsTest -->
+                  <span class="method-name">sportsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\LENOVO\IdeaProjects\Demo_Java_Web_Bikroy\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;C:/Users/LENOVO/IdeaProjects/Demo_Java_Web_Bikroy&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.Buy&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;buySection&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.Buy --&gt;
+      &lt;class name=&quot;tests.HomePageElements&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;dailyDealsTest&quot;/&gt;
+          &lt;include name=&quot;helpAndContact&quot;/&gt;
+          &lt;include name=&quot;sellTest&quot;/&gt;
+          &lt;include name=&quot;electronicsTest&quot;/&gt;
+          &lt;include name=&quot;fashionTest&quot;/&gt;
+          &lt;include name=&quot;healthAndBeautyTest&quot;/&gt;
+          &lt;include name=&quot;homeAndGardenTest&quot;/&gt;
+          &lt;include name=&quot;sportsTest&quot;/&gt;
+          &lt;include name=&quot;collectiblesAndArtPageTest&quot;/&gt;
+          &lt;include name=&quot;industrialEquipmentPageTest&quot;/&gt;
+          &lt;include name=&quot;motorsPageTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.HomePageElements --&gt;
+      &lt;class name=&quot;tests.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;homePageTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.HomePageTest --&gt;
+      &lt;class name=&quot;tests.PopularCategories&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;sneakersTest&quot;/&gt;
+          &lt;include name=&quot;koreanBeauty&quot;/&gt;
+          &lt;include name=&quot;wristWatches&quot;/&gt;
+          &lt;include name=&quot;fishing&quot;/&gt;
+          &lt;include name=&quot;collectibles&quot;/&gt;
+          &lt;include name=&quot;smartPhones&quot;/&gt;
+          &lt;include name=&quot;popularSell&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.PopularCategories --&gt;
+      &lt;class name=&quot;tests.RegistrationTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;registrationTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.RegistrationTest --&gt;
+      &lt;class name=&quot;tests.Sell&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;startSellingTest&quot;/&gt;
+          &lt;include name=&quot;learnToSell&quot;/&gt;
+          &lt;include name=&quot;affiliatesTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.Sell --&gt;
+      &lt;class name=&quot;tests.SignInTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;facebookLoginTest&quot;/&gt;
+          &lt;include name=&quot;googleLoginTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.SignInTest --&gt;
+      &lt;class name=&quot;tests.SearchProducts&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;searchFromSearchBoxTest&quot;/&gt;
+          &lt;include name=&quot;selectFromCategory&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- tests.SearchProducts --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- C:/Users/LENOVO/IdeaProjects/Demo_Java_Web_Bikroy --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">C:/Users/LENOVO/IdeaProjects/Demo_Java_Web_Bikroy (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(28);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'popularSell')
+data.setCell(0, 2, 'tests.PopularCategories')
+data.setCell(0, 3, 34764);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'buySection')
+data.setCell(1, 2, 'tests.Buy')
+data.setCell(1, 3, 19093);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registrationTest')
+data.setCell(2, 2, 'tests.RegistrationTest')
+data.setCell(2, 3, 10188);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'facebookLoginTest')
+data.setCell(3, 2, 'tests.SignInTest')
+data.setCell(3, 3, 9337);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'motorsPageTest')
+data.setCell(4, 2, 'tests.HomePageElements')
+data.setCell(4, 3, 8004);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'learnToSell')
+data.setCell(5, 2, 'tests.Sell')
+data.setCell(5, 3, 6480);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'fishing')
+data.setCell(6, 2, 'tests.PopularCategories')
+data.setCell(6, 3, 6399);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchFromSearchBoxTest')
+data.setCell(7, 2, 'tests.SearchProducts')
+data.setCell(7, 3, 6381);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'helpAndContact')
+data.setCell(8, 2, 'tests.HomePageElements')
+data.setCell(8, 3, 6181);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'wristWatches')
+data.setCell(9, 2, 'tests.PopularCategories')
+data.setCell(9, 3, 6136);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'electronicsTest')
+data.setCell(10, 2, 'tests.HomePageElements')
+data.setCell(10, 3, 5938);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'sportsTest')
+data.setCell(11, 2, 'tests.HomePageElements')
+data.setCell(11, 3, 5774);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'affiliatesTest')
+data.setCell(12, 2, 'tests.Sell')
+data.setCell(12, 3, 4884);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'fashionTest')
+data.setCell(13, 2, 'tests.HomePageElements')
+data.setCell(13, 3, 4600);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'smartPhones')
+data.setCell(14, 2, 'tests.PopularCategories')
+data.setCell(14, 3, 4571);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'koreanBeauty')
+data.setCell(15, 2, 'tests.PopularCategories')
+data.setCell(15, 3, 4559);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'healthAndBeautyTest')
+data.setCell(16, 2, 'tests.HomePageElements')
+data.setCell(16, 3, 4547);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'homeAndGardenTest')
+data.setCell(17, 2, 'tests.HomePageElements')
+data.setCell(17, 3, 4546);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'industrialEquipmentPageTest')
+data.setCell(18, 2, 'tests.HomePageElements')
+data.setCell(18, 3, 4510);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'collectiblesAndArtPageTest')
+data.setCell(19, 2, 'tests.HomePageElements')
+data.setCell(19, 3, 4501);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'collectibles')
+data.setCell(20, 2, 'tests.PopularCategories')
+data.setCell(20, 3, 4287);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'sneakersTest')
+data.setCell(21, 2, 'tests.PopularCategories')
+data.setCell(21, 3, 4022);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'dailyDealsTest')
+data.setCell(22, 2, 'tests.HomePageElements')
+data.setCell(22, 3, 4004);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'sellTest')
+data.setCell(23, 2, 'tests.HomePageElements')
+data.setCell(23, 3, 3741);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'startSellingTest')
+data.setCell(24, 2, 'tests.Sell')
+data.setCell(24, 3, 3352);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'selectFromCategory')
+data.setCell(25, 2, 'tests.SearchProducts')
+data.setCell(25, 3, 2886);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'googleLoginTest')
+data.setCell(26, 2, 'tests.SignInTest')
+data.setCell(26, 3, 1639);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'homePageTest')
+data.setCell(27, 2, 'tests.HomePageTest')
+data.setCell(27, 3, 1017);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.SignInTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">usernameAndPassLoginTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Buy</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">buySection</span>
+                <span class="method-start">9373 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28607 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageElements</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31850 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">dailyDealsTest</span>
+                <span class="method-start">39778 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">helpAndContact</span>
+                <span class="method-start">43782 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sellTest</span>
+                <span class="method-start">49966 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">electronicsTest</span>
+                <span class="method-start">53707 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fashionTest</span>
+                <span class="method-start">59645 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">healthAndBeautyTest</span>
+                <span class="method-start">64248 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">homeAndGardenTest</span>
+                <span class="method-start">68800 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sportsTest</span>
+                <span class="method-start">73349 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">collectiblesAndArtPageTest</span>
+                <span class="method-start">79126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">industrialEquipmentPageTest</span>
+                <span class="method-start">83627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">motorsPageTest</span>
+                <span class="method-start">88153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96172 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">97994 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">homePageTest</span>
+                <span class="method-start">108066 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">109085 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PopularCategories</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">110876 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sneakersTest</span>
+                <span class="method-start">117824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">koreanBeauty</span>
+                <span class="method-start">121846 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">wristWatches</span>
+                <span class="method-start">126407 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fishing</span>
+                <span class="method-start">132551 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">collectibles</span>
+                <span class="method-start">138950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">smartPhones</span>
+                <span class="method-start">143237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">popularSell</span>
+                <span class="method-start">147824 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">182592 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegistrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">184136 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">registrationTest</span>
+                <span class="method-start">186939 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">197129 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.Sell</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">199044 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">startSellingTest</span>
+                <span class="method-start">206148 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">learnToSell</span>
+                <span class="method-start">209515 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">affiliatesTest</span>
+                <span class="method-start">215998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">220884 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">222710 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">facebookLoginTest</span>
+                <span class="method-start">226857 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">googleLoginTest</span>
+                <span class="method-start">236209 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">237858 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProducts</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">239698 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">searchFromSearchBoxTest</span>
+                <span class="method-start">246779 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectFromCategory</span>
+                <span class="method-start">253164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">256053 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

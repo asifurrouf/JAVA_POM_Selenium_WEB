@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/LENOVO/IdeaProjects/Demo_Java_Web_Bikroy">
+        <classes>
+            <class name="tests.Buy">
+                <methods>
+                    <include name="buySection"/>
+                </methods>
+            </class>
+            <class name="tests.HomePageElements">
+                <methods>
+                    <include name="dailyDealsTest"/>
+                    <include name="helpAndContact"/>
+                    <include name="sellTest"/>
+                    <include name="electronicsTest"/>
+                    <include name="fashionTest"/>
+                    <include name="healthAndBeautyTest"/>
+                    <include name="homeAndGardenTest"/>
+                    <include name="sportsTest"/>
+                    <include name="collectiblesAndArtPageTest"/>
+                    <include name="industrialEquipmentPageTest"/>
+                    <include name="motorsPageTest"/>
+                </methods>
+            </class>
+            <class name="tests.HomePageTest">
+                <methods>
+                    <include name="homePageTest"/>
+                </methods>
+            </class>
+            <class name="tests.PopularCategories">
+                <methods>
+                    <include name="sneakersTest"/>
+                    <include name="koreanBeauty"/>
+                    <include name="wristWatches"/>
+                    <include name="fishing"/>
+                    <include name="collectibles"/>
+                    <include name="smartPhones"/>
+                    <include name="popularSell"/>
+                </methods>
+            </class>
+            <class name="tests.RegistrationTest">
+                <methods>
+                    <include name="registrationTest"/>
+                </methods>
+            </class>
+            <class name="tests.Sell">
+                <methods>
+                    <include name="startSellingTest"/>
+                    <include name="learnToSell"/>
+                    <include name="affiliatesTest"/>
+                </methods>
+            </class>
+            <class name="tests.SignInTest">
+                <methods>
+                    <include name="facebookLoginTest"/>
+                    <include name="googleLoginTest"/>
+                </methods>
+            </class>
+            <class name="tests.SearchProducts">
+                <methods>
+                    <include name="searchFromSearchBoxTest"/>
+                    <include name="selectFromCategory"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
